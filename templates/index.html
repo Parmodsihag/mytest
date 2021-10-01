@@ -1,20 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>template</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quatations</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
+
 <body>
-    <h1>Quatations</h1>
-    <form action='/make_quotes', method='get'>
-        Name <textarea name='customer_name'> </textarea><br>
-        From <textarea name='from_name'> </textarea><br>
-        To <textarea name='to_name'> </textarea><br>
-        Amount <textarea name='amount'> </textarea><br>
-        Quote Number<textarea name='quote_number'> </textarea><br>
-        <button type='submit'>Make Quatations</button>
+  <div class="container">
+  <h1>Happy Birthday Cadet</h1>
+    <form action='/make_quotes' , method='get'>
+      <div class="form-group">
+        <label>Name</label>
+        <input type="text" class="form-control" name="customer_name" placeholder="Name">
+      </div>
+      <div class="form-group">
+        <label>From</label>
+        <input type="text" class="form-control" name='from_name' placeholder="From">
+      </div>
+      <div class="form-group">
+        <label>To</label>
+        <input type="text" class="form-control" name='to_name' placeholder="To">
+      </div>
+      <div class="form-group">
+        <label>Amount</label>
+        <input type="text" class="form-control" name='amount' placeholder="Amount">
+      </div>
+      <div class="form-group">
+        <label>Quote Number</label>
+        <input type="text" class="form-control" name='quote_number' placeholder="Quote Number">
+      </div>
+      <div class="form-group">
+        <label>Contact Number</label>
+        <input type="text" class="form-control" name='contact_number' placeholder="Contact Number">
+      </div>
+      <div class="form-group">
+        <label>Date</label>
+        <input type="text" class="form-control" name='mydate' placeholder="Date">
+      </div>
+
+      <button type="submit" class="btn btn-primary">Make Quatations</button>
     </form>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
